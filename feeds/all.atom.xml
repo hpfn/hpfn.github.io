@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>HPFN LOG</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2017-10-17T16:30:00-02:00</updated><entry><title>Bugs</title><link href="/bug-oct.html" rel="alternate"></link><published>2017-10-17T16:30:00-02:00</published><updated>2017-10-17T16:30:00-02:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-10-17:/bug-oct.html</id><summary type="html">&lt;h3&gt;Email sent to bugs on:&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>HPFN LOG</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2017-10-17T16:30:00+00:00</updated><entry><title>Bugs</title><link href="/bug-oct.html" rel="alternate"></link><published>2017-10-17T16:30:00+00:00</published><updated>2017-10-17T16:30:00+00:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-10-17:/bug-oct.html</id><summary type="html">&lt;h3&gt;Email sent to bugs on:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://packages.qa.debian.org/g/gthumb.html"&gt;gthumb&lt;/a&gt;&lt;br&gt;
   The email was sent to Gnome Buzilla - The Debian Gnome Team will remove&lt;br&gt;
@@ -9,7 +9,7 @@
 &lt;li&gt;&lt;a href="https://packages.qa.debian.org/g/gthumb.html"&gt;gthumb&lt;/a&gt;&lt;br&gt;
   The email was sent to Gnome Buzilla - The Debian Gnome Team will remove&lt;br&gt;
   libgnome2-dev.  &lt;/li&gt;
-&lt;/ul&gt;</content><category term="Bug"></category></entry><entry><title>My packages</title><link href="/resp-oct.html" rel="alternate"></link><published>2017-10-16T17:00:00-02:00</published><updated>2017-10-16T17:00:00-02:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-10-16:/resp-oct.html</id><summary type="html">&lt;h3&gt;Maintenance of:&lt;/h3&gt;
+&lt;/ul&gt;</content><category term="Bug"></category></entry><entry><title>My packages</title><link href="/resp-oct.html" rel="alternate"></link><published>2017-10-16T17:00:00+00:00</published><updated>2017-10-16T17:00:00+00:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-10-16:/resp-oct.html</id><summary type="html">&lt;h3&gt;Maintenance of:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://packages.qa.debian.org/g/gthumb.html"&gt;gthumb&lt;/a&gt;&lt;br&gt;
   closes #877745&lt;/li&gt;
@@ -25,13 +25,13 @@
   twice. 2.5.15 and 2.5.16 (urgent fix)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://packages.qa.debian.org/w/webcamoid.html"&gt;webcamoid&lt;/a&gt;&lt;br&gt;
   dshow dir properly removed now.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="responsible"></category></entry><entry><title>As a sponsor I did</title><link href="/sponsor-oct.html" rel="alternate"></link><published>2017-10-11T08:00:00-03:00</published><updated>2017-10-11T08:00:00-03:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-10-11:/sponsor-oct.html</id><summary type="html">&lt;h3&gt;Uploaded packages as a sponsor:&lt;/h3&gt;
+&lt;/ul&gt;</content><category term="responsible"></category></entry><entry><title>As a sponsor I did</title><link href="/sponsor-oct.html" rel="alternate"></link><published>2017-10-11T08:00:00+00:00</published><updated>2017-10-11T08:00:00+00:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-10-11:/sponsor-oct.html</id><summary type="html">&lt;h3&gt;Uploaded packages as a sponsor:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;[stenc] - pendent (NEW)&lt;/li&gt;
 &lt;/ul&gt;</summary><content type="html">&lt;h3&gt;Uploaded packages as a sponsor:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;[stenc] - pendent (NEW)&lt;/li&gt;
-&lt;/ul&gt;</content><category term="sponsor"></category></entry><entry><title>As a sponsor I did</title><link href="/sponsor-set.html" rel="alternate"></link><published>2017-09-28T16:40:00-03:00</published><updated>2017-09-28T16:40:00-03:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-09-28:/sponsor-set.html</id><summary type="html">&lt;h3&gt;Uploaded packages as a sponsor:&lt;/h3&gt;
+&lt;/ul&gt;</content><category term="sponsor"></category></entry><entry><title>As a sponsor I did</title><link href="/sponsor-set.html" rel="alternate"></link><published>2017-09-28T16:40:00+00:00</published><updated>2017-09-28T16:40:00+00:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-09-28:/sponsor-set.html</id><summary type="html">&lt;h3&gt;Uploaded packages as a sponsor:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://packages.qa.debian.org/p/pybind11.html"&gt;pybind11&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://packages.qa.debian.org/p/pytest-qt.html"&gt;pytest-qt&lt;/a&gt;&lt;/li&gt;
@@ -49,7 +49,7 @@
 &lt;li&gt;[pynmea2] - pendent (NEW)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://packages.qa.debian.org/q/qr-tools.html"&gt;qr-tools&lt;/a&gt;  &lt;/li&gt;
 &lt;li&gt;&lt;a href="https://packages.qa.debian.org/s/sane-backends-extras.html"&gt;sane-backends-extras&lt;/a&gt;  &lt;/li&gt;
-&lt;/ul&gt;</content><category term="sponsor"></category></entry><entry><title>Immutable Objects</title><link href="/immutable-objects.html" rel="alternate"></link><published>2017-09-27T10:15:00-03:00</published><updated>2017-09-27T10:15:00-03:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-09-27:/immutable-objects.html</id><summary type="html">&lt;h2&gt;What immutable means&lt;/h2&gt;
+&lt;/ul&gt;</content><category term="sponsor"></category></entry><entry><title>Immutable Objects</title><link href="/immutable-objects.html" rel="alternate"></link><published>2017-09-27T10:15:00+00:00</published><updated>2017-09-27T10:15:00+00:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-09-27:/immutable-objects.html</id><summary type="html">&lt;h2&gt;What immutable means&lt;/h2&gt;
 &lt;p&gt;The value of some objects can change. Objects whose value can &lt;br&gt;
 change are said to be mutable; objects whose value is unchangeable&lt;br&gt;
 once they are created are called immutable. (The value of an&lt;br&gt;
@@ -67,11 +67,11 @@ An object’s mutability is determined by its type; for  instance,&lt;br&gt;
 numbers, strings and tuples are immutable, while dictionaries and&lt;br&gt;
 lists are mutable.  &lt;/p&gt;
 &lt;p&gt;A tuple is immutable, period.  &lt;/p&gt;
-&lt;p&gt;&lt;a href="https://docs.python.org/3/reference/datamodel.html"&gt;Data Model&lt;/a&gt;  &lt;/p&gt;</content><category term="theory"></category></entry><entry><title>Skipped Exerc</title><link href="/skkiped-exerc.html" rel="alternate"></link><published>2017-09-24T15:30:00-03:00</published><updated>2017-09-24T15:30:00-03:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-09-24:/skkiped-exerc.html</id><summary type="html">&lt;h2&gt;Math&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://docs.python.org/3/reference/datamodel.html"&gt;Data Model&lt;/a&gt;  &lt;/p&gt;</content><category term="theory"></category></entry><entry><title>Skipped Exerc</title><link href="/skkiped-exerc.html" rel="alternate"></link><published>2017-09-24T15:30:00+00:00</published><updated>2017-09-24T15:30:00+00:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-09-24:/skkiped-exerc.html</id><summary type="html">&lt;h2&gt;Math&lt;/h2&gt;
 &lt;p&gt;I am failling on exercises that need math at CodeWars.
 Maybe because I do not study math for a long time.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Math&lt;/h2&gt;
 &lt;p&gt;I am failling on exercises that need math at CodeWars.
-Maybe because I do not study math for a long time.&lt;/p&gt;</content><category term="exercise"></category></entry><entry><title>Bugs</title><link href="/bugs-set.html" rel="alternate"></link><published>2017-09-21T14:55:00-03:00</published><updated>2017-09-21T14:55:00-03:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-09-21:/bugs-set.html</id><summary type="html">&lt;h3&gt;Email sent to bug on:&lt;/h3&gt;
+Maybe because I do not study math for a long time.&lt;/p&gt;</content><category term="exercise"></category></entry><entry><title>Bugs</title><link href="/bugs-set.html" rel="alternate"></link><published>2017-09-21T14:55:00+00:00</published><updated>2017-09-21T14:55:00+00:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-09-21:/bugs-set.html</id><summary type="html">&lt;h3&gt;Email sent to bug on:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=834667"&gt;django-modeltranslation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=865851"&gt;drf-extensions&lt;/a&gt;&lt;/li&gt;
@@ -81,7 +81,7 @@ Maybe because I do not study math for a long time.&lt;/p&gt;</content><category 
 &lt;li&gt;&lt;a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=834667"&gt;django-modeltranslation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=865851"&gt;drf-extensions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=875443"&gt;gnome-control-center&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="Bug"></category></entry><entry><title>My packages</title><link href="/three-post.html" rel="alternate"></link><published>2017-09-21T14:45:00-03:00</published><updated>2017-09-21T14:45:00-03:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-09-21:/three-post.html</id><summary type="html">&lt;h3&gt;Maintenance of:&lt;/h3&gt;
+&lt;/ul&gt;</content><category term="Bug"></category></entry><entry><title>My packages</title><link href="/three-post.html" rel="alternate"></link><published>2017-09-21T14:45:00+00:00</published><updated>2017-09-21T14:45:00+00:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-09-21:/three-post.html</id><summary type="html">&lt;h3&gt;Maintenance of:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://packages.qa.debian.org/b/btcheck.html"&gt;btcheck&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://packages.qa.debian.org/libc/libcdk5.html"&gt;libcdk5&lt;/a&gt;&lt;/li&gt;
@@ -89,7 +89,7 @@ Maybe because I do not study math for a long time.&lt;/p&gt;</content><category 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://packages.qa.debian.org/b/btcheck.html"&gt;btcheck&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://packages.qa.debian.org/libc/libcdk5.html"&gt;libcdk5&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="responsible"></category></entry><entry><title>Hello People!</title><link href="/one-post.html" rel="alternate"></link><published>2017-09-11T11:00:00-03:00</published><updated>2017-09-11T11:00:00-03:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-09-11:/one-post.html</id><summary type="html">&lt;p&gt;Introduce myself&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Interesting stuff&lt;/h2&gt;
+&lt;/ul&gt;</content><category term="responsible"></category></entry><entry><title>Hello People!</title><link href="/one-post.html" rel="alternate"></link><published>2017-09-11T11:00:00+00:00</published><updated>2017-09-11T11:00:00+00:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-09-11:/one-post.html</id><summary type="html">&lt;p&gt;Introduce myself&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Interesting stuff&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://debian.org/"&gt;Debian&lt;/a&gt;&lt;br&gt;
   A &lt;a href="https://www.debian.org/intro/free"&gt;free&lt;/a&gt; operating system (OS) for your computer.  &lt;/li&gt;
