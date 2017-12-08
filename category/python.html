@@ -61,38 +61,35 @@ was calling 'super()'. I knew that you do not instantiate a mixin<br>
 directly. But did not know how to use it.  </p>
 <p>Henrique Bastos sent me an example that points out when the code<br>
 is mixed in the hierarchy:</p>
-<hr>
-<div class="highlight"><pre><span></span><span class="kr">class</span> <span class="nx">A</span>:
-    <span class="kt">def</span> <span class="nx">__init__</span><span class="p">(</span><span class="nx">self</span><span class="p">)</span><span class="o">:</span>
-            <span class="nx">print</span><span class="p">(</span><span class="s1">&#39;A.__init__&#39;</span><span class="p">)</span>
-
-<span class="kr">class</span> <span class="nx">Mixin</span>:
-    <span class="kt">def</span> <span class="nx">__init__</span><span class="p">(</span><span class="nx">self</span><span class="p">)</span><span class="o">:</span>
-        <span class="nx">print</span><span class="p">(</span><span class="s1">&#39;Mixin.__init__&#39;</span><span class="p">)</span>
-        <span class="kr">super</span><span class="p">().</span><span class="nx">__init__</span><span class="p">()</span>
-
-<span class="kr">class</span> <span class="nx">B</span><span class="p">(</span><span class="nx">A</span><span class="p">,</span> <span class="nx">Mixin</span><span class="p">)</span><span class="o">:</span>
-    <span class="nx">pass</span>
-
-<span class="kr">class</span> <span class="nx">C</span><span class="p">(</span><span class="nx">Mixin</span><span class="p">,</span> <span class="nx">A</span><span class="p">)</span><span class="o">:</span>
-    <span class="nx">pass</span>
-
-<span class="o">&gt;&gt;&gt;</span> <span class="nx">A</span><span class="p">()</span>
-<span class="nx">A</span><span class="p">.</span><span class="nx">__init__</span>
-
-<span class="o">&gt;&gt;&gt;</span> <span class="nx">Mixin</span><span class="p">()</span>
-<span class="nx">Mixin</span><span class="p">.</span><span class="nx">__init__</span>
-
-<span class="o">&gt;&gt;&gt;</span> <span class="nx">B</span><span class="p">()</span>
-<span class="nx">A</span><span class="p">.</span><span class="nx">__init__</span>
-
-<span class="o">&gt;&gt;&gt;</span> <span class="nx">C</span><span class="p">()</span>
-<span class="nx">Mixin</span><span class="p">.</span><span class="nx">__init__</span>
-<span class="nx">A</span><span class="p">.</span><span class="nx">__init__</span>
-</pre></div>
-
-
-<hr>
+<blockquote>
+<p>class A:
+    def <strong>init</strong>(self):
+        print('A.<strong>init</strong>')</p>
+<p>class Mixin:
+    def <strong>init</strong>(self):
+        print('Mixin.<strong>init</strong>')
+        super().<strong>init</strong>()</p>
+<p>class B(A, Mixin):
+    pass</p>
+<p>class C(Mixin, A):
+    pass</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>A()
+A.<strong>init</strong></p>
+<p>Mixin()
+Mixin.<strong>init</strong></p>
+<p>B()
+A.<strong>init</strong></p>
+<p>C()
+Mixin.<strong>init</strong>
+A.<strong>init</strong>
+</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
 <p>Mixins are used to extend a class. They provide optional customizations.<br>
 And Django project likes it.</p>
 		</div> <!--/#entry-content-->
