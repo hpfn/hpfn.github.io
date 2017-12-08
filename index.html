@@ -98,24 +98,24 @@ directly. But did not know how to use it.  </p>
 <p>Henrique Bastos sent me an example that points out when the code<br>
 is mixed in the hierarchy:</p>
 <blockquote>
-<p>class A:
-    def <strong>init</strong>(self):
-        print('A.<strong>init</strong>')</p>
-<p>class Mixin:
-    def <strong>init</strong>(self):
-        print('Mixin.<strong>init</strong>')
-        super().<strong>init</strong>()</p>
-<p>class B(A, Mixin):
-    pass</p>
-<p>class C(Mixin, A):
-    pass</p>
-<p>:&gt;&gt;&gt; A()<br>
+<p>class A:<br>
+    def <strong>init</strong>(self):<br>
+        print('A.<strong>init</strong>')  </p>
+<p>class Mixin:<br>
+    def <strong>init</strong>(self):<br>
+        print('Mixin.<strong>init</strong>')<br>
+        super().<strong>init</strong>()  </p>
+<p>class B(A, Mixin):<br>
+    pass  </p>
+<p>class C(Mixin, A):<br>
+    pass  </p>
+<p>.&gt;&gt;&gt; A()<br>
 A.<strong>init</strong></p>
-<p>:&gt;&gt;&gt; Mixin()<br>
+<p>.&gt;&gt;&gt; Mixin()<br>
 Mixin.<strong>init</strong></p>
-<p>:&gt;&gt;&gt; B()<br>
+<p>.&gt;&gt;&gt; B()<br>
 A.<strong>init</strong></p>
-<p>:&gt;&gt;&gt; C()<br>
+<p>.&gt;&gt;&gt; C()<br>
 Mixin.<strong>init</strong><br>
 A.<strong>init</strong>
 </p>
