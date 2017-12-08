@@ -65,10 +65,10 @@ is mixed in the hierarchy:</p>
 .........<code>print('A.__init__')</code>  </p>
 <p><code>class Mixin:</code><br>
 ....<code>def __init__(self):</code><br>
-    ....<code>print('Mixin.__init__')</code><br>
-    ....<code>super().__init__()</code>  </p>
-<p>class B(A, Mixin):<br>
-    pass  </p>
+........<code>print('Mixin.__init__')</code><br>
+........<code>super().__init__()</code>  </p>
+<p><code>class B(A, Mixin):  
+    pass</code>  </p>
 <p>class C(Mixin, A):<br>
     pass  </p>
 <p>.&gt;&gt;&gt; A()<br>
