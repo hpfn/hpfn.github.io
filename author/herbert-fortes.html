@@ -110,22 +110,16 @@ is mixed in the hierarchy:</p>
     pass</p>
 <p>class C(Mixin, A):
     pass</p>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>A()
+<p>:&gt;&gt;&gt; A()<br>
 A.<strong>init</strong></p>
-<p>Mixin()
+<p>:&gt;&gt;&gt; Mixin()<br>
 Mixin.<strong>init</strong></p>
-<p>B()
+<p>:&gt;&gt;&gt; B()<br>
 A.<strong>init</strong></p>
-<p>C()
-Mixin.<strong>init</strong>
+<p>:&gt;&gt;&gt; C()<br>
+Mixin.<strong>init</strong><br>
 A.<strong>init</strong>
 </p>
-</blockquote>
-</blockquote>
-</blockquote>
 </blockquote>
 <p>Mixins are used to extend a class. They provide optional customizations.<br>
 And Django project likes it.</p>
