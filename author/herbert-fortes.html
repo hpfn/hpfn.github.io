@@ -99,7 +99,7 @@ directly. But did not know how to use it.  </p>
 <p>Henrique Bastos sent me an example that points out when the code<br>
 is mixed in the hierarchy:</p>
 <blockquote>
-<p>class A:<br>
+<p><code>class A:</code><br>
 <code>def __init__(self):</code><br>
 <code>print('A.__init__')</code>  </p>
 <p>class Mixin:<br>
@@ -111,14 +111,14 @@ is mixed in the hierarchy:</p>
 <p>class C(Mixin, A):<br>
     pass  </p>
 <p>.&gt;&gt;&gt; A()<br>
-A.<strong>init</strong></p>
+<code>A.__init__</code></p>
 <p>.&gt;&gt;&gt; Mixin()<br>
-Mixin.<strong>init</strong></p>
+<code>Mixin.__init__</code></p>
 <p>.&gt;&gt;&gt; B()<br>
-A.<strong>init</strong></p>
+<code>A.__init__</code></p>
 <p>.&gt;&gt;&gt; C()<br>
-Mixin.<strong>init</strong><br>
-A.<strong>init</strong>
+<code>Mixin.__init__</code><br>
+<code>A.__init__</code>
 </p>
 </blockquote>
 <p>Mixins are used to extend a class. They provide optional customizations.<br>
