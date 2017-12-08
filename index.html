@@ -101,10 +101,10 @@ is mixed in the hierarchy:</p>
 <p><code>class A:</code><br>
 .....<code>def __init__(self):</code><br>
 .........<code>print('A.__init__')</code>  </p>
-<p>class Mixin:<br>
-    def <strong>init</strong>(self):<br>
-        print('Mixin.<strong>init</strong>')<br>
-        super().<strong>init</strong>()  </p>
+<p><code>class Mixin:</code><br>
+....<code>def __init__(self):</code><br>
+    ....<code>print('Mixin.__init__')</code><br>
+    ....<code>super().__init__()</code>  </p>
 <p>class B(A, Mixin):<br>
     pass  </p>
 <p>class C(Mixin, A):<br>
