@@ -40,6 +40,38 @@
 		<div id="contents">
 <div class="post type-post status-publish format-standard hentry category-general" id="post">
 	<div class="entry-meta">
+		<div class="date"><a href="https://hpfn.github.io/resp-jan-2018.html">jan 10 2018</a></div>
+		<span class="byline">By <a href="https://hpfn.github.io/author/herbert-fortes.html">Herbert Fortes</a></span>
+			<span class="cat-links"><a href="https://hpfn.github.io/category/debian.html" title="View all posts in Debian" rel="category tag">Debian</a></span>
+	</div> <!-- /#entry-meta -->
+	<div class="main">
+		<h2 class="entry-title">
+			<a href="https://hpfn.github.io/resp-jan-2018.html" title="Permalink to My packages" rel="bookmark">My packages</a>
+		</h2>
+		<div class="entry-content">
+			<h3>Maintenance of:</h3>
+<ul>
+<li>
+<p>Packages already at salsa.debian.org<br>
+<a href="https://packages.qa.debian.org/b/btcheck.html">btcheck</a><br>
+<a href="https://packages.qa.debian.org/d/dj-static.html">dj-static</a><br>
+<a href="https://packages.qa.debian.org/g/gifsicle.html">gifsicle</a><br>
+<a href="https://packages.qa.debian.org/p/python-static3.html">python-static3</a><br>
+<a href="https://packages.qa.debian.org/g/gthumb.html">gthumb</a><br>
+<a href="https://packages.qa.debian.org/w/webcamoid.html">webcamoid</a>  </p>
+</li>
+<li>
+<p>Package Sagasu was removed from Debian.  </p>
+</li>
+<li>Package Gifsicle received security fix for Wheezy, Jessie<br>
+and Stretch. Buster and Sid have the last upstream version.  </li>
+</ul>
+		</div> <!--/#entry-content-->
+    		<span class="tag-links"><strong>Tagged</strong>
+ <a href="https://hpfn.github.io/tag/responsible.html" rel="tag">responsible</a>    		</span>
+	</div> <!--/#main-->
+</div>  <!--/#post--><div class="post type-post status-publish format-standard hentry category-general" id="post">
+	<div class="entry-meta">
 		<div class="date"><a href="https://hpfn.github.io/bye-bye.html">jan 02 2018</a></div>
 		<span class="byline">By <a href="https://hpfn.github.io/author/herbert-fortes.html">Herbert Fortes</a></span>
 			<span class="cat-links"><a href="https://hpfn.github.io/category/debian.html" title="View all posts in Debian" rel="category tag">Debian</a></span>
@@ -149,56 +181,6 @@ bad about the issue.  </p>
 		</div> <!--/#entry-content-->
     		<span class="tag-links"><strong>Tagged</strong>
  <a href="https://hpfn.github.io/tag/qa.html" rel="tag">qa</a>    		</span>
-	</div> <!--/#main-->
-</div>  <!--/#post--><div class="post type-post status-publish format-standard hentry category-general" id="post">
-	<div class="entry-meta">
-		<div class="date"><a href="https://hpfn.github.io/python-mixins.html">nov 29 2017</a></div>
-		<span class="byline">By <a href="https://hpfn.github.io/author/herbert-fortes.html">Herbert Fortes</a></span>
-			<span class="cat-links"><a href="https://hpfn.github.io/category/python.html" title="View all posts in Python" rel="category tag">Python</a></span>
-	</div> <!-- /#entry-meta -->
-	<div class="main">
-		<h2 class="entry-title">
-			<a href="https://hpfn.github.io/python-mixins.html" title="Permalink to Python mixed in" rel="bookmark">Python mixed in</a>
-		</h2>
-		<div class="entry-content">
-			<h2>Mixin</h2>
-<p>I was reading the Django code, middleware, and ends up with a<br>
-Python mixin. It was good to know that I did not understand the <br>
-subject correctly. I read about it but just read is not enough<br>
-when talking about programming.  </p>
-<p>I was unable to read the code because a class without inheritance<br>
-was calling 'super()'. I knew that you do not instantiate a mixin<br>
-directly. But did not know how to use it.  </p>
-<p>Henrique Bastos sent me an example that points out when the code<br>
-is mixed in the hierarchy:</p>
-<blockquote>
-<p><code>class A:</code><br>
-.....<code>def __init__(self):</code><br>
-.........<code>print('A.__init__')</code>  </p>
-<p><code>class Mixin:</code><br>
-....<code>def __init__(self):</code><br>
-........<code>print('Mixin.__init__')</code><br>
-........<code>super().__init__()</code>  </p>
-<p><code>class B(A, Mixin):  
-    pass</code>  </p>
-<p><code>class C(Mixin, A):  
-  pass</code>  </p>
-<p>.&gt;&gt;&gt; A()<br>
-<code>A.__init__</code></p>
-<p>.&gt;&gt;&gt; Mixin()<br>
-<code>Mixin.__init__</code></p>
-<p>.&gt;&gt;&gt; B()<br>
-<code>A.__init__</code></p>
-<p>.&gt;&gt;&gt; C()<br>
-<code>Mixin.__init__</code><br>
-<code>A.__init__</code>
-</p>
-</blockquote>
-<p>Mixins are used to extend a class. They provide optional customizations.<br>
-And Django project likes it.</p>
-		</div> <!--/#entry-content-->
-    		<span class="tag-links"><strong>Tagged</strong>
- <a href="https://hpfn.github.io/tag/classes.html" rel="tag">classes</a>    		</span>
 	</div> <!--/#main-->
 </div>  <!--/#post--><div class="navigation">
 		<div class="nav-next"><a href="https://hpfn.github.io/author/herbert-fortes2.html" >Older posts <span class="meta-nav">&rarr;</span></a></div>
