@@ -40,6 +40,56 @@
 		<div id="contents">
 <div class="post type-post status-publish format-standard hentry category-general" id="post">
 	<div class="entry-meta">
+		<div class="date"><a href="https://hpfn.github.io/python-mixins.html">nov 29 2017</a></div>
+		<span class="byline">By <a href="https://hpfn.github.io/author/herbert-fortes.html">Herbert Fortes</a></span>
+			<span class="cat-links"><a href="https://hpfn.github.io/category/python.html" title="View all posts in Python" rel="category tag">Python</a></span>
+	</div> <!-- /#entry-meta -->
+	<div class="main">
+		<h2 class="entry-title">
+			<a href="https://hpfn.github.io/python-mixins.html" title="Permalink to Python mixed in" rel="bookmark">Python mixed in</a>
+		</h2>
+		<div class="entry-content">
+			<h2>Mixin</h2>
+<p>I was reading the Django code, middleware, and ends up with a<br>
+Python mixin. It was good to know that I did not understand the <br>
+subject correctly. I read about it but just read is not enough<br>
+when talking about programming.  </p>
+<p>I was unable to read the code because a class without inheritance<br>
+was calling 'super()'. I knew that you do not instantiate a mixin<br>
+directly. But did not know how to use it.  </p>
+<p>Henrique Bastos sent me an example that points out when the code<br>
+is mixed in the hierarchy:</p>
+<blockquote>
+<p><code>class A:</code><br>
+.....<code>def __init__(self):</code><br>
+.........<code>print('A.__init__')</code>  </p>
+<p><code>class Mixin:</code><br>
+....<code>def __init__(self):</code><br>
+........<code>print('Mixin.__init__')</code><br>
+........<code>super().__init__()</code>  </p>
+<p><code>class B(A, Mixin):  
+    pass</code>  </p>
+<p><code>class C(Mixin, A):  
+  pass</code>  </p>
+<p>.&gt;&gt;&gt; A()<br>
+<code>A.__init__</code></p>
+<p>.&gt;&gt;&gt; Mixin()<br>
+<code>Mixin.__init__</code></p>
+<p>.&gt;&gt;&gt; B()<br>
+<code>A.__init__</code></p>
+<p>.&gt;&gt;&gt; C()<br>
+<code>Mixin.__init__</code><br>
+<code>A.__init__</code>
+</p>
+</blockquote>
+<p>Mixins are used to extend a class. They provide optional customizations.<br>
+And Django project likes it.</p>
+		</div> <!--/#entry-content-->
+    		<span class="tag-links"><strong>Tagged</strong>
+ <a href="https://hpfn.github.io/tag/classes.html" rel="tag">classes</a>    		</span>
+	</div> <!--/#main-->
+</div>  <!--/#post--><div class="post type-post status-publish format-standard hentry category-general" id="post">
+	<div class="entry-meta">
 		<div class="date"><a href="https://hpfn.github.io/resp-nov.html">nov 25 2017</a></div>
 		<span class="byline">By <a href="https://hpfn.github.io/author/herbert-fortes.html">Herbert Fortes</a></span>
 			<span class="cat-links"><a href="https://hpfn.github.io/category/debian.html" title="View all posts in Debian" rel="category tag">Debian</a></span>
@@ -137,29 +187,6 @@ congratulations :)  </p>
 		</div> <!--/#entry-content-->
     		<span class="tag-links"><strong>Tagged</strong>
  <a href="https://hpfn.github.io/tag/dev-env.html" rel="tag">dev-env</a>    		</span>
-	</div> <!--/#main-->
-</div>  <!--/#post--><div class="post type-post status-publish format-standard hentry category-general" id="post">
-	<div class="entry-meta">
-		<div class="date"><a href="https://hpfn.github.io/django-triaging.html">out 31 2017</a></div>
-		<span class="byline">By <a href="https://hpfn.github.io/author/herbert-fortes.html">Herbert Fortes</a></span>
-			<span class="cat-links"><a href="https://hpfn.github.io/category/django.html" title="View all posts in Django" rel="category tag">Django</a></span>
-	</div> <!-- /#entry-meta -->
-	<div class="main">
-		<h2 class="entry-title">
-			<a href="https://hpfn.github.io/django-triaging.html" title="Permalink to Django Project" rel="bookmark">Django Project</a>
-		</h2>
-		<div class="entry-content">
-			<h2>Starting in Django project</h2>
-<p>10/30 I started reading about how to contribute to the<br>
-Django project.</p>
-<p>I chose one ticket to make a review and today (10/31) I
-sent an email to django-developers because the instructions
-to run tests was not clear to me. The answer was to read
-the instructions again. :)</p>
-<p>Let's see what 'coverage' will tell me.</p>
-		</div> <!--/#entry-content-->
-    		<span class="tag-links"><strong>Tagged</strong>
- <a href="https://hpfn.github.io/tag/triaging.html" rel="tag">triaging</a>    		</span>
 	</div> <!--/#main-->
 </div>  <!--/#post--><div class="navigation">
 		<div class="nav-previous">
