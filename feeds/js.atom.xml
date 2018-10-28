@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>HPFN LOG - JS</title><link href="/" rel="alternate"></link><link href="/feeds/js.atom.xml" rel="self"></link><id>/</id><updated>2018-06-20T10:20:00-03:00</updated><entry><title>JS - JQuery</title><link href="/js-jquery.html" rel="alternate"></link><published>2018-06-20T10:20:00-03:00</published><updated>2018-06-20T10:20:00-03:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2018-06-20:/js-jquery.html</id><summary type="html">&lt;h2&gt;JS - Check&lt;/h2&gt;
+&lt;p&gt;When checking JS in your project do not forget to disable&lt;br&gt;
+cache while DevTools(Chromium) is open. And do not close it&lt;br&gt;
+while you are doing the check! &lt;/p&gt;</summary><content type="html">&lt;h2&gt;JS - Check&lt;/h2&gt;
+&lt;p&gt;When checking JS in your project do not forget to disable&lt;br&gt;
+cache while DevTools(Chromium) is open. And do not close it&lt;br&gt;
+while you are doing the check! &lt;/p&gt;</content><category term="test"></category></entry></feed>

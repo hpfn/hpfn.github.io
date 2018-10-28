@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>HPFN LOG - Django</title><link href="/" rel="alternate"></link><link href="/feeds/django.atom.xml" rel="self"></link><id>/</id><updated>2018-10-16T11:55:00-03:00</updated><entry><title>Django Ticket</title><link href="/django-ticket-oct-2018.html" rel="alternate"></link><published>2018-10-16T11:55:00-03:00</published><updated>2018-10-16T11:55:00-03:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2018-10-16:/django-ticket-oct-2018.html</id><summary type="html">&lt;h2&gt;Tickets&lt;/h2&gt;
+&lt;p&gt;After some months just reading tickets two "pitacos".&lt;/p&gt;
+&lt;p&gt;A restart to get the breaking the ice feeling again.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Tickets&lt;/h2&gt;
+&lt;p&gt;After some months just reading tickets two "pitacos".&lt;/p&gt;
+&lt;p&gt;A restart to get the breaking the ice feeling again.&lt;/p&gt;</content><category term="ticket"></category></entry><entry><title>Ticket #29818</title><link href="/django-ticket-oct.html" rel="alternate"></link><published>2018-10-04T09:55:00-03:00</published><updated>2018-10-04T09:55:00-03:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2018-10-04:/django-ticket-oct.html</id><summary type="html">&lt;h2&gt;ValueError when parsing querydata to autofill a Django admin form&lt;/h2&gt;
+&lt;p&gt;After some months I sent an opinion again. I confirmed that the ticket&lt;br&gt;
+was not reproducible. More information was needed. Not bad.  &lt;/p&gt;
+&lt;p&gt;But I sent a confusing message again. A 'POST' with URL args? It could&lt;br&gt;
+be interpreted as the …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;ValueError when parsing querydata to autofill a Django admin form&lt;/h2&gt;
+&lt;p&gt;After some months I sent an opinion again. I confirmed that the ticket&lt;br&gt;
+was not reproducible. More information was needed. Not bad.  &lt;/p&gt;
+&lt;p&gt;But I sent a confusing message again. A 'POST' with URL args? It could&lt;br&gt;
+be interpreted as the page had been rendered and I submitted the form&lt;br&gt;
+with the value sent to it by URL. Trying to see the message with good eyes.  &lt;/p&gt;
+&lt;p&gt;I should be sent a complete process at least. Step by step as shown in&lt;br&gt;
+the log messages. Or just a comment without log messages. As the other&lt;br&gt;
+guys did, by the way.&lt;/p&gt;</content><category term="ticket"></category></entry><entry><title>Django Ticket</title><link href="/django-#29282.html" rel="alternate"></link><published>2018-07-06T15:35:00-03:00</published><updated>2018-07-06T15:35:00-03:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2018-07-06:/django-/29282.html</id><summary type="html">&lt;h2&gt;Ticket 29282&lt;/h2&gt;
+&lt;p&gt;The ticket seems to be forgotten. Three months quiet.&lt;/p&gt;
+&lt;p&gt;The code is simple and only a function name is in a&lt;br&gt;
+discussion.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Ticket 29282&lt;/h2&gt;
+&lt;p&gt;The ticket seems to be forgotten. Three months quiet.&lt;/p&gt;
+&lt;p&gt;The code is simple and only a function name is in a&lt;br&gt;
+discussion.&lt;/p&gt;</content><category term="ticket"></category></entry><entry><title>Ticket 29427</title><link href="/django-ticket-jun.html" rel="alternate"></link><published>2018-06-12T16:10:00-03:00</published><updated>2018-06-12T16:10:00-03:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2018-06-12:/django-ticket-jun.html</id><summary type="html">&lt;h2&gt;All done&lt;/h2&gt;
+&lt;p&gt;A guy is reopening a ticket. It was left behind because the &lt;br&gt;
+author sent no more feedback.  &lt;/p&gt;
+&lt;p&gt;The fix is known, has a test. Almost a month without a move.&lt;br&gt;
+I checked it and asked the guy to send the PR.  &lt;/p&gt;</summary><content type="html">&lt;h2&gt;All done&lt;/h2&gt;
+&lt;p&gt;A guy is reopening a ticket. It was left behind because the &lt;br&gt;
+author sent no more feedback.  &lt;/p&gt;
+&lt;p&gt;The fix is known, has a test. Almost a month without a move.&lt;br&gt;
+I checked it and asked the guy to send the PR.  &lt;/p&gt;</content><category term="ticket"></category></entry><entry><title>Django and Celery</title><link href="/django-celery.html" rel="alternate"></link><published>2018-06-09T09:50:00-03:00</published><updated>2018-06-09T09:50:00-03:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2018-06-09:/django-celery.html</id><summary type="html">&lt;h2&gt;Config Celery as a daemon&lt;/h2&gt;
+&lt;p&gt;When doing the configuration to run Celery as a daemon for&lt;br&gt;
+your Django project, be sure that the celery-user has the&lt;br&gt;
+proper permissions to the log file and the working directory.  &lt;/p&gt;</summary><content type="html">&lt;h2&gt;Config Celery as a daemon&lt;/h2&gt;
+&lt;p&gt;When doing the configuration to run Celery as a daemon for&lt;br&gt;
+your Django project, be sure that the celery-user has the&lt;br&gt;
+proper permissions to the log file and the working directory.  &lt;/p&gt;</content><category term="celery"></category></entry><entry><title>Django Tickets</title><link href="/django-contrib.html" rel="alternate"></link><published>2018-06-03T15:35:00-03:00</published><updated>2018-06-03T15:35:00-03:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2018-06-03:/django-contrib.html</id><summary type="html">&lt;h2&gt;What I did so far&lt;/h2&gt;
+&lt;p&gt;my contribution to Django  so far:&lt;/p&gt;
+&lt;p&gt;31/10/2017 First ticket. #28719 - review
+https://code.djangoproject.com/ticket/28719&lt;/p&gt;
+&lt;p&gt;15 Jan 2018 - #9145 - not much
+ https://github.com/django/django/pull/9145         &lt;/p&gt;
+&lt;p&gt;28 Jan 2018 - #29036 - review
+https://code.djangoproject.com/ticket/29036&lt;/p&gt;
+&lt;p&gt;12 Feb …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;What I did so far&lt;/h2&gt;
+&lt;p&gt;my contribution to Django  so far:&lt;/p&gt;
+&lt;p&gt;31/10/2017 First ticket. #28719 - review
+https://code.djangoproject.com/ticket/28719&lt;/p&gt;
+&lt;p&gt;15 Jan 2018 - #9145 - not much
+ https://github.com/django/django/pull/9145         &lt;/p&gt;
+&lt;p&gt;28 Jan 2018 - #29036 - review
+https://code.djangoproject.com/ticket/29036&lt;/p&gt;
+&lt;p&gt;12 Feb 2018 - #28171 - code and tests
+ https://github.com/django/django/pull/9691&lt;/p&gt;
+&lt;p&gt;19 Feb 2018 - #29140 - code
+ https://github.com/django/django/pull/9707&lt;/p&gt;
+&lt;p&gt;22 Feb 2018 - #29150 - not valid&lt;/p&gt;
+&lt;p&gt;27 Feb 2018 - give up
+https://github.com/django/django/pull/9750&lt;/p&gt;
+&lt;p&gt;31 Mai 2018 - ticket #29459 - QueryDict, still open
+https://code.djangoproject.com/ticket/29459&lt;/p&gt;</content><category term="contrib"></category></entry><entry><title>Django Tickets</title><link href="/django-ticket-mar.html" rel="alternate"></link><published>2018-03-10T14:00:00-03:00</published><updated>2018-03-10T14:00:00-03:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2018-03-10:/django-ticket-mar.html</id><summary type="html">&lt;h2&gt;Docs&lt;/h2&gt;
+&lt;p&gt;I am having problems to write a good doc for
+ticket &lt;a href="https://code.djangoproject.com/ticket/29148"&gt;29148&lt;/a&gt;. And the ticket
+is only about doc.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Docs&lt;/h2&gt;
+&lt;p&gt;I am having problems to write a good doc for
+ticket &lt;a href="https://code.djangoproject.com/ticket/29148"&gt;29148&lt;/a&gt;. And the ticket
+is only about doc.&lt;/p&gt;</content><category term="patches"></category></entry><entry><title>Django tickets</title><link href="/django-ticket.html" rel="alternate"></link><published>2018-02-20T14:40:00-03:00</published><updated>2018-02-20T14:40:00-03:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2018-02-20:/django-ticket.html</id><summary type="html">&lt;h2&gt;First Ticket&lt;/h2&gt;
+&lt;p&gt;2018-02-17  &lt;/p&gt;
+&lt;p&gt;It was earlier than I expected, but it happened.  &lt;/p&gt;
+&lt;p&gt;I found an "Easy picking" ticket with instructions&lt;br&gt;
+about what to do. It was open for months, which&lt;br&gt;
+means that it was not a big problem.  &lt;/p&gt;
+&lt;p&gt;An "if" statement that raises a ValueError. That's&lt;br&gt;
+all. And some adjustments …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;First Ticket&lt;/h2&gt;
+&lt;p&gt;2018-02-17  &lt;/p&gt;
+&lt;p&gt;It was earlier than I expected, but it happened.  &lt;/p&gt;
+&lt;p&gt;I found an "Easy picking" ticket with instructions&lt;br&gt;
+about what to do. It was open for months, which&lt;br&gt;
+means that it was not a big problem.  &lt;/p&gt;
+&lt;p&gt;An "if" statement that raises a ValueError. That's&lt;br&gt;
+all. And some adjustments in the form test file.  &lt;/p&gt;
+&lt;p&gt;The PR was accepted, and I enjoyed each moment.  &lt;/p&gt;
+&lt;h2&gt;One More Ticket&lt;/h2&gt;
+&lt;p&gt;One more simple bug fixed.  &lt;/p&gt;
+&lt;p&gt;I was studying the ticket at the same time another guy. He set&lt;br&gt;
+"owner" first. But it was not a problem at the end.  &lt;/p&gt;
+&lt;p&gt;He created the Pull Request and sent a solution. Then I commented&lt;br&gt;
+submitting a patch that was simpler and trying to explain my point&lt;br&gt;
+of view. He kindly accepted my suggestion, made the change, and&lt;br&gt;
+the &lt;a href="https://github.com/django/django/pull/9707"&gt;PR&lt;/a&gt; was merged.  &lt;/p&gt;
+&lt;p&gt;What a way to start a year. Two simple bugs, that's true. But they&lt;br&gt;
+gave me a good feeling.&lt;/p&gt;
+&lt;p&gt;obs: my comments on the ticket page were kind of messy.&lt;br&gt;
+     PR one thing, ticket another thing. Different places.&lt;/p&gt;</content><category term="patches"></category></entry><entry><title>Charcoallog - A Django pet project</title><link href="/django-pet-project-bank-app.html" rel="alternate"></link><published>2018-01-24T16:00:00-02:00</published><updated>2018-01-24T16:00:00-02:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2018-01-24:/django-pet-project-bank-app.html</id><summary type="html">&lt;h2&gt;Bank App&lt;/h2&gt;
+&lt;p&gt;The bank app of my Django pet project charcoallog is much like&lt;br&gt;
+the  old software I were using for my domestic financial-accounting.&lt;br&gt;
+About  usage I mean. The look - CSS/HTML is really ugly.  &lt;/p&gt;
+&lt;p&gt;The look of the project I will see later. I started a new app -&lt;br&gt;
+investment …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Bank App&lt;/h2&gt;
+&lt;p&gt;The bank app of my Django pet project charcoallog is much like&lt;br&gt;
+the  old software I were using for my domestic financial-accounting.&lt;br&gt;
+About  usage I mean. The look - CSS/HTML is really ugly.  &lt;/p&gt;
+&lt;p&gt;The look of the project I will see later. I started a new app -&lt;br&gt;
+investment.  &lt;/p&gt;</content><category term="pet-project"></category></entry><entry><title>Security Features</title><link href="/django-production.html" rel="alternate"></link><published>2017-11-17T10:30:00-02:00</published><updated>2017-11-17T10:30:00-02:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-11-17:/django-production.html</id><summary type="html">&lt;h2&gt;Deployment Checklist&lt;/h2&gt;
+&lt;p&gt;There is a big difference between development and production. The&lt;br&gt;
+settings file needs adjust when deploying a Django project.&lt;/p&gt;
+&lt;p&gt;There are many &lt;a href="https://docs.djangoproject.com/en/1.11/topics/security/"&gt;security features&lt;/a&gt; in Django, and some of them should &lt;br&gt;
+be enabled just before the deployment. A settings file for development&lt;br&gt;
+and a settings file for production …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Deployment Checklist&lt;/h2&gt;
+&lt;p&gt;There is a big difference between development and production. The&lt;br&gt;
+settings file needs adjust when deploying a Django project.&lt;/p&gt;
+&lt;p&gt;There are many &lt;a href="https://docs.djangoproject.com/en/1.11/topics/security/"&gt;security features&lt;/a&gt; in Django, and some of them should &lt;br&gt;
+be enabled just before the deployment. A settings file for development&lt;br&gt;
+and a settings file for production.&lt;/p&gt;
+&lt;p&gt;The official documentation has a &lt;a href="https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/"&gt;checklist&lt;/a&gt;. And a command that can&lt;br&gt;
+make things easier:  &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.djangoproject.com/en/1.11/ref/django-admin/#cmdoption-check-deploy"&gt;django-admin check --deploy&lt;/a&gt;&lt;/p&gt;</content><category term="production"></category></entry><entry><title>Get in the code</title><link href="/django-dev-code.html" rel="alternate"></link><published>2017-11-10T15:00:00-02:00</published><updated>2017-11-10T15:00:00-02:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-11-10:/django-dev-code.html</id><summary type="html">&lt;h2&gt;What saved the week&lt;/h2&gt;
+&lt;p&gt;This week I lost my workflow a  little bit. But a good
+thread started by Bruno Santana at WTTD helped me to
+keep on track.&lt;/p&gt;
+&lt;p&gt;He proposed to get in the Django code using the
+'messages.success(request, 'blablabla)'. An excellent
+exercise. And Cuducos gave helpful …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;What saved the week&lt;/h2&gt;
+&lt;p&gt;This week I lost my workflow a  little bit. But a good
+thread started by Bruno Santana at WTTD helped me to
+keep on track.&lt;/p&gt;
+&lt;p&gt;He proposed to get in the Django code using the
+'messages.success(request, 'blablabla)'. An excellent
+exercise. And Cuducos gave helpful tips. &lt;/p&gt;
+&lt;p&gt;Henrique Bastos also gave me some directions on how to deal 
+with a Pull Request using a command line tool - git-hub.&lt;/p&gt;</content><category term="dev-code"></category></entry><entry><title>Fixing my dev env</title><link href="/django-dev-env.html" rel="alternate"></link><published>2017-11-01T16:50:00-02:00</published><updated>2017-11-01T16:50:00-02:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-11-01:/django-dev-env.html</id><summary type="html">&lt;h2&gt;What was missing&lt;/h2&gt;
+&lt;p&gt;The problem with the dev enviroment was: python3.5-dev Debian package was
+missing.&lt;/p&gt;
+&lt;p&gt;After installing the package and redo the env everything ran as expected.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;summary&lt;br&gt;
+py3: commands succeeded&lt;br&gt;
+flake8: commands succeeded&lt;br&gt;
+docs: commands succeeded&lt;br&gt;
+isort: commands succeeded&lt;br&gt;
+congratulations :)  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;After that I sent my first review.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;What was missing&lt;/h2&gt;
+&lt;p&gt;The problem with the dev enviroment was: python3.5-dev Debian package was
+missing.&lt;/p&gt;
+&lt;p&gt;After installing the package and redo the env everything ran as expected.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;summary&lt;br&gt;
+py3: commands succeeded&lt;br&gt;
+flake8: commands succeeded&lt;br&gt;
+docs: commands succeeded&lt;br&gt;
+isort: commands succeeded&lt;br&gt;
+congratulations :)  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;After that I sent my first review.&lt;/p&gt;</content><category term="dev-env"></category></entry><entry><title>Django Project</title><link href="/django-triaging.html" rel="alternate"></link><published>2017-10-31T16:20:00-02:00</published><updated>2017-10-31T16:20:00-02:00</updated><author><name>Herbert Fortes</name></author><id>tag:None,2017-10-31:/django-triaging.html</id><summary type="html">&lt;h2&gt;Starting in Django project&lt;/h2&gt;
+&lt;p&gt;10/30 I started reading about how to contribute to the&lt;br&gt;
+Django project.&lt;/p&gt;
+&lt;p&gt;I chose one ticket to make a review and today (10/31) I
+sent an email to django-developers because the instructions
+to run tests was not clear to me. The answer was to …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Starting in Django project&lt;/h2&gt;
+&lt;p&gt;10/30 I started reading about how to contribute to the&lt;br&gt;
+Django project.&lt;/p&gt;
+&lt;p&gt;I chose one ticket to make a review and today (10/31) I
+sent an email to django-developers because the instructions
+to run tests was not clear to me. The answer was to read
+the instructions again. :)&lt;/p&gt;
+&lt;p&gt;Let's see what 'coverage' will tell me.&lt;/p&gt;</content><category term="triaging"></category></entry></feed>
